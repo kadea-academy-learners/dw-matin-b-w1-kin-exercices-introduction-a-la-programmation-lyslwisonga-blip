@@ -29,7 +29,7 @@ C'est un héritage historique lié à la création de JavaScript en 1995. Les ty
 
 **Ma réponse (avec mes mots, 3 à 5 lignes) :**
 
-...
+NaN (Not-a-Number) est une valeur spéciale en JavaScript qui indique le résultat d'une opération mathématique invalide ou d'une conversion ratée. NaN === NaN renvoie false par convention technique (norme internationale), car une valeur d'erreur indéterminée ne peut pas être égale à une autre. Pour le détecter de manière fiable, il faut utiliser la fonction Number.isNaN().
 
 **Mon test dans la console :**
 
