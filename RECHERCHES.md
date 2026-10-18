@@ -83,7 +83,7 @@ Oui, il est techniquement possible d'enchaîner plusieurs opérateurs ternaires 
 
 **Ma réponse (avec mes mots, 3 à 5 lignes) :**
 
-...
+On peut enlever les parenthèses quand la fonction n'attend qu'un seul mot ou nombre à travailler. On peut aussi supprimer les accolades et le mot return quand la réponse tient sur une seule ligne. Dans ce cas, la fonction donne automatiquement le résultat sans qu'on ait besoin de lui demander !
 
 **Mon test dans la console :**
 
