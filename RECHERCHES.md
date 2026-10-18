@@ -101,7 +101,7 @@ On peut enlever les parenthèses quand la fonction n'attend qu'un seul mot ou no
 
 **Ma réponse (avec mes mots, 3 à 5 lignes) :**
 
-...
+e mot-clé continue sert à zapper le tour actuel de la boucle pour passer direct au suivant. La différence avec break, c'est que break stoppe tout et ferme la boucle d'un coup sec. En gros, continue saute juste une étape et reprend le fil, alors que break coupe tout et annule la suite !
 
 **Mon test dans la console :**
 
