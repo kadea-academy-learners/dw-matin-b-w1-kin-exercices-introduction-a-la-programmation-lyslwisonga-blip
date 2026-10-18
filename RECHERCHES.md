@@ -245,7 +245,7 @@ Les principaux opérateurs d'affectation composée sont += (x += 3 pour ajouter)
 
 **Ma réponse (avec mes mots, 3 à 5 lignes) :**
 
-...
+La principale différence est que while vérifie la condition avant d'exécuter le bloc de code (ce qui peut donner 0 tour si elle est fausse), tandis que do...while exécute toujours son bloc au moins une fois avant de la tester. Ainsi, pour l'étape 4 avec un départ à 15 %, un while classique ferait 0 tour, alors qu'un do...while ferait exactement 1 tour : la batterie baisserait à 0 % et le compteur passerait à 1 heure.
 
 **Mon test dans la console :**
 
