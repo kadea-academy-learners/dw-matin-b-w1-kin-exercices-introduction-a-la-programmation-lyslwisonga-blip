@@ -155,7 +155,7 @@ Pour afficher 75000 sous la forme 75 000, il suffit d'utiliser la méthode .toLo
 
 **Ma réponse (avec mes mots, 3 à 5 lignes) :**
 
-...
+En JavaScript, une valeur falsy est une valeur qui est évaluée comme étant fausse lorsqu'on la teste dans une condition. Il existe exactement 8 valeurs considérées comme falsy : le booléen false, le chiffre 0, le zéro négatif -0, le BigInt 0n, la chaîne de caractères vide (""), null, undefined, et NaN. Tout le reste, y compris le chiffre 1, le texte '0' ou des tableaux vides, est considéré comme truthy.
 
 **Mon test dans la console :**
 
