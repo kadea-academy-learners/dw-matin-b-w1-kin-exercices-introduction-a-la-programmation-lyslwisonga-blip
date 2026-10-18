@@ -11,7 +11,7 @@
 
 **Ma réponse (avec mes mots, 3 à 5 lignes) :**
 
-...
+C'est un héritage historique lié à la création de JavaScript en 1995. Les types de données étaient alors identifiés par des codes binaires, et le vide (null) partageait malencontreusement le même indicateur que les objets. Modifier cela aujourd'hui casserait des milliers de sites internet existants, ce qui oblige les développeurs à conserver cette anomalie par souci de compatibilité.
 
 **Mon test dans la console :**
 
