@@ -227,7 +227,7 @@ L'insertion automatique de point-virgule (ASI) est un mécanisme où JavaScript 
 
 **Ma réponse (avec mes mots, 3 à 5 lignes) :**
 
-...
+Les principaux opérateurs d'affectation composée sont += (x += 3 pour ajouter), -= (x -= 1 pour soustraire), *= (x *= 2 pour multiplier), /= (x /= 2 pour diviser) et %= (x %= 3 pour le reste du modulo). Ils permettent de simplifier le code en modifiant directement la valeur d'une variable et en enregistrant le nouveau résultat en une seule opération.
 
 **Mon test dans la console :**
 

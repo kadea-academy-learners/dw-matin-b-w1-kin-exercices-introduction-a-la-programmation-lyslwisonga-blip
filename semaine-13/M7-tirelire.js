@@ -20,4 +20,20 @@ Cite tous les opérateurs d'affectation composée (+=, -=…) et donne un exempl
 
 // ✍️ Ton code ici 👇 (règles : const/let, ===, gabarits littéraux, fonctions fléchées, camelCase)
 
+let totalTirelire = 0;
+const epargneHebdomadaire = 2000;
+const bonusTante = 1000;
+const nombreSemaines = 12;
 
+for (let semaine = 1; semaine <= nombreSemaines; semaine++) {
+  totalTirelire += epargneHebdomadaire;
+  
+  if (semaine % 4 === 0) {
+    totalTirelire += bonusTante;
+    console.log(`Semaine ${semaine} : ${totalTirelire.toLocaleString('fr-FR')} FC (bonus !)`);
+  } else {
+    console.log(`Semaine ${semaine} : ${totalTirelire.toLocaleString('fr-FR')} FC`);
+  }
+}
+
+console.log(`Total après ${nombreSemaines} semaines : ${totalTirelire.toLocaleString('fr-FR')} FC.`);
