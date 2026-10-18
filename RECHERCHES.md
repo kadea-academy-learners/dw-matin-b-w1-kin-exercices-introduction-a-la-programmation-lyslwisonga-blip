@@ -209,7 +209,7 @@ var est banni du code moderne car il utilise une portée de fonction au lieu d'u
 
 **Ma réponse (avec mes mots, 3 à 5 lignes) :**
 
-...
+L'insertion automatique de point-virgule (ASI) est un mécanisme où JavaScript ajoute de lui-même des points-virgules aux endroits qu'il juge nécessaires en fin de ligne. Si vous retournez à la ligne juste après un mot-clé comme return, JavaScript insère un point-virgule fantôme de manière prématurée. Cela coupe l'instruction et renvoie undefined par erreur, empêchant le code situé sur la ligne suivante d'être lu.
 
 **Mon test dans la console :**
 
