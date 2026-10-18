@@ -137,7 +137,7 @@ FizzBuzz est célèbre parce qu'il permet de vérifier rapidement si un candidat
 
 **Ma réponse (avec mes mots, 3 à 5 lignes) :**
 
-...
+Pour afficher 75000 sous la forme 75 000, il suffit d'utiliser la méthode .toLocaleString('fr-FR') directement sur ton nombre. JavaScript va automatiquement formater le chiffre en y insérant des espaces pour séparer les milliers selon la norme française. Tu peux facilement l'intégrer dans un message en écrivant par exemple ${nombre.toLocaleString('fr-FR')}.
 
 **Mon test dans la console :**
 
