@@ -173,7 +173,7 @@ En JavaScript, une valeur falsy est une valeur qui est évaluée comme étant fa
 
 **Ma réponse (avec mes mots, 3 à 5 lignes) :**
 
-...
+L'opérateur ?? (coalescence des nuls) renvoie la valeur de droite uniquement si celle de gauche est null ou undefined. Il se différencie de l'opérateur || car ce dernier réagit à toutes les valeurs falsy, comme le chiffre 0 ou false. Ainsi, ?? est beaucoup plus précis pour définir une valeur par défaut sans risquer d'effacer par erreur un résultat valide tel qu'un score de zéro.
 
 **Mon test dans la console :**
 
