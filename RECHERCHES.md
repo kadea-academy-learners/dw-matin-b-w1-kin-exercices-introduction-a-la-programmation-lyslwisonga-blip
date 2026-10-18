@@ -119,7 +119,7 @@ e mot-clé continue sert à zapper le tour actuel de la boucle pour passer direc
 
 **Ma réponse (avec mes mots, 3 à 5 lignes) :**
 
-...
+FizzBuzz est célèbre parce qu'il permet de vérifier rapidement si un candidat sait vraiment coder. C'est un test très simple qui élimine tout de suite les personnes qui connaissent la théorie mais n'ont pas la logique de base. Il permet aux recruteurs de voir en quelques minutes si le développeur maîtrise les boucles, les conditions et sait organiser sa réflexion.
 
 **Mon test dans la console :**
 
