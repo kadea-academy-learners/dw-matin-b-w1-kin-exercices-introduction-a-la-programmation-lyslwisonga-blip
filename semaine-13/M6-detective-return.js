@@ -32,14 +32,32 @@ Le troisième bug vient de l'« insertion automatique de point-virgule » (ASI).
 // ✍️ Ton code ici 👇 (règles : const/let, ===, gabarits littéraux, fonctions fléchées, camelCase)
 
 const doubler = (n) => { n * 2; };
-console.log(doubler(4));           // undefined ?!
+console.log(doubler(4));           
 
 const calculerTva = (prix) => { console.log(prix * 0.16); };
 const total = calculerTva(1000) + 500;
-console.log(total);                // NaN ?!
+console.log(total);                
 
 const saluer = (prenom) => {
   return
     `Mbote ${prenom}`;
 };
-console.log(saluer('Ney'));        // undefined ?!
+console.log(saluer('Ney'));        
+
+const doubler = (n) => { 
+  return n * 2; 
+};
+console.log(doubler(4));          
+
+const calculerTva = (prix) => { 
+  return prix * 0.16; 
+};
+const total = calculerTva(1000) + 500;
+console.log(total);               
+
+
+
+const saluer = (prenom) => {
+  return `Mbote ${prenom}`; 
+};
+console.log(saluer('Ney'));
