@@ -65,7 +65,7 @@ NaN (Not-a-Number) est une valeur spéciale en JavaScript qui indique le résult
 
 **Ma réponse (avec mes mots, 3 à 5 lignes) :**
 
-...
+Oui, il est techniquement possible d'enchaîner plusieurs opérateurs ternaires en imbriquant les conditions. Cependant, cette pratique est fortement déconseillée car elle nuit gravement à la lisibilité du code et complique sa maintenance ou son débogage. Pour des structures décisionnelles complexes, il est toujours préférable de privilégier des blocs if / else if / else plus clairs et structurés.
 
 **Mon test dans la console :**
 
