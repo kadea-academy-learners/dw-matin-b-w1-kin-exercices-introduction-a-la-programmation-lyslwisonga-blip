@@ -51,3 +51,18 @@ const afficher = () => {
 };
 console.log(afficher());
 console.log(secret);
+
+const ville = 'Kinshasa';
+let commune; 
+
+if (true) {
+  commune = 'Gombe'; 
+  console.log(ville);
+}
+console.log(commune); 
+
+const afficher = () => {
+  const secret = 'pondu';
+  return secret;
+};
+console.log(afficher());

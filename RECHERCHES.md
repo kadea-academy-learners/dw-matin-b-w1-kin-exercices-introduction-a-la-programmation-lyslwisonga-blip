@@ -191,7 +191,7 @@ L'opérateur ?? (coalescence des nuls) renvoie la valeur de droite uniquement si
 
 **Ma réponse (avec mes mots, 3 à 5 lignes) :**
 
-...
+var est banni du code moderne car il utilise une portée de fonction au lieu d'une portée de bloc, ce qui lui permet de fuir hors des conditions ou des boucles et de créer des bugs inattendus. Son mécanisme de hoisting (qui remonte les déclarations en haut du code en les initialisant à undefined) rendait aussi le code imprévisible. C'est pourquoi on utilise désormais let et const, qui offrent un contrôle beaucoup plus rigoureux et sécurisé.
 
 **Mon test dans la console :**
 
