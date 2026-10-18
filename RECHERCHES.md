@@ -47,7 +47,7 @@ NaN (Not-a-Number) est une valeur spéciale en JavaScript qui indique le résult
 
 **Ma réponse (avec mes mots, 3 à 5 lignes) :**
 
-...
+-7 % 2 renvoie -1 en JavaScript, car l'opérateur modulo conserve le signe du nombre de départ. Si l'on teste un nombre impair avec % 2 === 1, la condition échouera pour les nombres négatifs puisque leur reste est -1. Il est donc préférable d'utiliser % 2 !== 0, qui permet de capturer universellement tous les nombres impairs, qu'ils soient positifs ou négatifs.
 
 **Mon test dans la console :**
 
